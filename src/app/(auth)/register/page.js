@@ -37,7 +37,7 @@ export default function RegisterPage() {
         {/* Brand Logo */}
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 rounded-full bg-blue-500"></div>
-          <span className="text-white text-xl font-medium tracking-tight">Sync.</span>
+          <span className="text-white text-xl font-medium tracking-tight">Blab.</span>
         </div>
 
         {/* Heading */}
@@ -145,7 +145,7 @@ export default function RegisterPage() {
               type="button"
               className="flex-1 px-4 py-3 border border-gray-700 rounded-lg text-white hover:bg-gray-800 transition-all duration-200 font-medium"
             >
-              Cancel
+             <Link href="/">Cancel</Link>
             </button>
           </div>
         </form>
